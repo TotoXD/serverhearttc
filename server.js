@@ -3,10 +3,6 @@ var bodyParser = require('body-parser');
 var mongoose = require("mongoose");
 var cors = require("cors");
 
-// Removed Auth const User = require('./users');
-const Card = require('./cards');
-const Deck = require('./decks');
-
 // Removed Auth const bcryptjs = require('bcryptjs');
 // Removed Auth const jwt = require('jsonwebtoken');
 
