@@ -10,7 +10,7 @@ const Deck = require('./decks');
 // Removed Auth const bcryptjs = require('bcryptjs');
 // Removed Auth const jwt = require('jsonwebtoken');
 
-const port = 4201;
+let port = (process.env.PORT || 8080);
 // Removed Auth const secretKey = 'HeartTCjwtKeySecret';
 const urlDB = "mongodb+srv://projetWEBadmin:bestprojecteverdeouf@webdb.fop3b.mongodb.net/WebSiteDatabase?retryWrites=true&w=majority";
 
